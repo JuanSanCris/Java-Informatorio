@@ -7,7 +7,7 @@ public class operadores {
         int operacion = 5 + 10 * 10;
         System.out.println(operacion);
 
-        // operador ternario: recibe tres datos, y decide basado en el valor del primero
+        // operador ternario: recibe tres datos, y decide basado en el valor del primero (booleano)
 
         int cualNumero = ('f' == 'g') ? 5:10;
 
