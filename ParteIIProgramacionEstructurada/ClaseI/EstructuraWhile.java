@@ -1,4 +1,4 @@
-package ProgramacionEstructurada.ClaseUno;
+package ParteIIProgramacionEstructurada.ClaseI;
 
 
 public class EstructuraWhile {

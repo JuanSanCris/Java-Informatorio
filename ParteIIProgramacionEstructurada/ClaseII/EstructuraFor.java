@@ -1,4 +1,4 @@
-package ProgramacionEstructurada.ClaseDos;
+package ParteIIProgramacionEstructurada.ClaseII;
 
 public class EstructuraFor {
     public static void main(String[] args) {
@@ -14,5 +14,13 @@ public class EstructuraFor {
                 System.out.println("0");
             }
         }
+
+        int i = 0;
+
+        for (i = 9; i < 10; i++){
+            System.out.println(i);
+        }
+
+        System.out.println(i);
     }
 }

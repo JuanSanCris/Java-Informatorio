@@ -1,4 +1,4 @@
-package tiposDeDatos;
+package ParteIProgramacionImperativa.tiposDeDatos;
 // package Clase2ProgramacionImperativa;
 
 public class TiposDeDatos { // Bloque de codigo de clase
@@ -15,7 +15,7 @@ public class TiposDeDatos { // Bloque de codigo de clase
         // Para definir una constante, usamos la keyword final y utilizamos la nomencaltura SCREAMING_SNAKE_CASE
 
         final int vidas = 0;
-    
+        System.out.println(vidas);
 
     }
 }

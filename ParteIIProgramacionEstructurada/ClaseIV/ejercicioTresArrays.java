@@ -1,4 +1,4 @@
-package ProgramacionEstructurada.ClaseTres;
+package ParteIIProgramacionEstructurada.ClaseIV;
 
 public class ejercicioTresArrays {
     public static void main(String[] args) {

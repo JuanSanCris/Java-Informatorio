@@ -1,4 +1,4 @@
-// package operandosYOperadores;
+package ParteIProgramacionImperativa.operandosYOperadores;
 
 public class operadores {
     public static void main(String[] args) {

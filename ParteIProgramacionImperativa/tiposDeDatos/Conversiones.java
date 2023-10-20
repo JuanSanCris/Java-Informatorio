@@ -1,4 +1,4 @@
-package tiposDeDatos;
+package ParteIProgramacionImperativa.tiposDeDatos;
 
 public class Conversiones {
     public static void main(String[] args) {
@@ -6,7 +6,8 @@ public class Conversiones {
 
         // promocion: transforma un dato de un tipo a otro con el mismo o mayor espacio de memoria para almacenarlo.
 
-        int valor = 5; 
+        int valor = 5;
+        System.out.println(valor);
         
         // en este caso, 5 ingresa y es automaticamente 'convertido' por promocion a un int, 
         // y como valor es una variable int, entonces la asignación es correcta.
@@ -14,7 +15,8 @@ public class Conversiones {
         // contraccion: transforma un dato a un tipo de menor espacio de memoria, con la consecuente perdida de info.
 
         int valor2 = (int)5.50f; //cast
-    
+        System.out.println(valor2);
+
         // es un 'casteo' o 'casting'. Toma la parte que le interesa del valor recibido.
 
         // conversion implicita: se da cuando se combinana dos operandos de tipos distintos. 
