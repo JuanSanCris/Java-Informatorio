@@ -12,5 +12,7 @@ public class ejercicioDos {
         double cantidadEnDolares = Double.parseDouble(cantidadDolaresString);
 
         System.out.println("U$D" + cantidadEnDolares + " = AR$" + (cantidadEnDolares*cotizacionDolar));
+
+        myObj.close();
     }
 }

@@ -1,4 +1,4 @@
-package ProgramacionOrientadaAObjetos;
+package ParteIIIProgramacionOrientadaAObjetos.ClaseI;
 
 public class App {
     public static void main(String[] args) {

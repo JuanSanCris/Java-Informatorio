@@ -1,5 +1,7 @@
 package ParteIProgramacionImperativa.operandosYOperadores;
 
+import java.util.Scanner;
+
 public class operadores {
     public static void main(String[] args) {
         // la predecendia entre operaciones matematicas es la misma que en la matematica tradicional.
@@ -9,8 +11,16 @@ public class operadores {
 
         // operador ternario: recibe tres datos, y decide basado en el valor del primero (booleano)
 
-        int cualNumero = ('f' == 'g') ? 5:10;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Ingrese un numero del 0 al 15");
+
+        int numero = input.nextInt();
+
+        int cualNumero = (numero - 10 < 5) ? 5:10;
 
         System.out.println(cualNumero);
+
+        input.close();
     }
 }

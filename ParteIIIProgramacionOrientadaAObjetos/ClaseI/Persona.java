@@ -1,4 +1,4 @@
-package ProgramacionOrientadaAObjetos;
+package ParteIIIProgramacionOrientadaAObjetos.ClaseI;
 
 public class Persona {
     private String nombre;
